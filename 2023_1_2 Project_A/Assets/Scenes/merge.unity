@@ -1377,13 +1377,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 476668727}
+  - {fileID: 327144886}
+  - {fileID: 326102948}
+  - {fileID: 1022605436}
+  - {fileID: 380843346}
+  - {fileID: 286400580}
+  - {fileID: 2104118054}
+  - {fileID: 453393802}
+  - {fileID: 1458186642}
 --- !u!4 &1708210349
 Transform:
   m_ObjectHideFlags: 0
