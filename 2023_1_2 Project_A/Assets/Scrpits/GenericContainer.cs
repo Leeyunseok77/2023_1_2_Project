@@ -13,7 +13,7 @@ public class GenericContainer<T>
     }
     public void Add(T item)
     {   //배열이 가득차면 더이상 들어가지 않음
-        if (currentIndex < items.Length)
+        if(currentIndex < items.Length) 
         {
             items[currentIndex] = item;    //받은 아이템을 번호를 통해서 배열에 넣는다.
             currentIndex++;                 //아이템 번호를 증가시킨다.
@@ -22,6 +22,8 @@ public class GenericContainer<T>
 
     public T[] GetItems()
     {//아이탬 배열을 Return 함 
-        return items;
+        return items; 
     }
 }
+    
+

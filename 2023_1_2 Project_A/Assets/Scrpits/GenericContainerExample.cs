@@ -12,7 +12,7 @@ public class GenericContainerExample : MonoBehaviour
         intContainer = new GenericContainer<int>(10);           //10칸으로 선언
         stringContainer = new GenericContainer<string>(5);      //5칸으로 선언
     }
-
+   
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))       //키보드 1을 누르면
@@ -32,7 +32,7 @@ public class GenericContainerExample : MonoBehaviour
     {
         T[] item = container.GetItems(); //아이템 리스트를 받아온다.
         string temp = "";                   //Debug.Log에 보여질 칸 String
-        for (int i = 0; i < item.Length; i++)            //컨테이너의 모든 값을 for문으로 돌면서
+        for(int i = 0; i < item.Length; i++)            //컨테이너의 모든 값을 for문으로 돌면서
         {
             if (item[i] != null)                    //값이 NULL 이 아닐경우 
             {
@@ -41,7 +41,7 @@ public class GenericContainerExample : MonoBehaviour
             else
             {
                 temp += "Empty / ";                 //NULL일 경우에는 Empty 표현 해준다. 
-            }
+            }            
         }
         Debug.Log(temp);
     }
