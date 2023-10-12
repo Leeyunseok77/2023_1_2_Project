@@ -19,7 +19,7 @@ public class EnemyController : MonoBehaviour
     {
         if (reachedEnd == false)    //도달 완료가 아닐 경우
         {
-            transform.LookAt(thePath.points[currentPoint]); //지금 위치 커서값을 향해서 본다.
+            transform.LookAt(thePath.points[currentPoint]);    //지금 위치 커서값을 향해서 본다.
 
             transform.position = Vector3.MoveTowards(transform.position
                 , thePath.points[currentPoint].position, moveSpeed * Time.deltaTime);
